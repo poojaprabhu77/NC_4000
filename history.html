@@ -1,0 +1,83 @@
+<!Doctype html>
+<html>
+    <head>
+        <title> NORTHCAPE 4000</title>
+        <style>
+            body {
+                color: #222;
+                font-family: 'Segoe UI', Arial, sans-serif;
+                margin: 0;
+                padding: 0;
+                min-height: 100vh;
+            }
+            .container {
+                background: rgba(255,255,255,0.85);
+                max-width: 600px;
+                margin: 40px auto;
+                border-radius: 12px;
+                box-shadow: 0 4px 24px rgba(0,0,0,0.15);
+                padding: 32px;
+                text-align: center;
+            }
+            h1 {
+                color: #1a4d7a;
+                margin-bottom: 16px;
+            }
+            button {
+                background: #1a4d7a;
+                color: #fff;
+                border: none;
+                border-radius: 6px;
+                padding: 10px 24px;
+                font-size: 1rem;
+                cursor: pointer;
+                margin: 8px 0;
+                transition: background 0.2s;
+            }
+            button:hover {
+                background: #2566a8;
+            }
+            a.lnk button {
+                margin-top: 8px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+          <h1>Journey so far..</h1>
+          <p>
+                <strong>26/07/2025</strong>
+                <button href="https://www.komoot.com/live/ODQ4MjI0OTg5MTk2OjE3NTI3Mzk4ODkyOTdfcVFaVTM=" target="_blank">Show</button>
+          </p>
+          <p>
+                <strong>26/07/2025</strong>
+                <button href="https://www.komoot.com/live/ODQ4MjI0OTg5MTk2OjE3NTI3Mzk4ODkyOTdfcVFaVTM=" target="_blank">Show</button>
+          </p>
+          <p>
+                <strong>26/07/2025</strong>
+                <button href="https://www.komoot.com/live/ODQ4MjI0OTg5MTk2OjE3NTI3Mzk4ODkyOTdfcVFaVTM=" target="_blank">Show</button>
+          </p>
+            
+        </div>
+        <!--script>
+            fetch('/data')
+                .then(response => response.json())
+                .then(data => {
+                    lk = data['link']
+                    console.log(typeof(lk))
+                    console.log(JSON.parse(lk))
+                    js = JSON.parse(lk)
+                    lk = js['track']
+                    if (lk) {
+                        document.getElementById('trackLink').setAttribute('href',lk);
+                    } else {
+                        document.getElementById('trackLink').setAttribute('href', "#");
+                    }
+                })
+                .catch(error => {
+                    document.getElementById('trackLink').setAttribute('href', "#");
+                    console.error('Error:', error);
+                });
+    </script-->
+    </body>
+</html>
